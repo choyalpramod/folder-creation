@@ -1,0 +1,86 @@
+@import '../../../css/variable';
+
+.white-modal{
+    background-color: #ccc;
+    opacity: 0.5;
+    z-index: 2;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+.create-folder-block{
+    border-radius: 5px;
+    width: 300px;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    background-color: white;
+    box-shadow: 0px 1px 7px black;
+    
+    input{
+        border: 1px solid #ccc;
+        padding: 8px 10px;
+        width: 100%;
+        margin-top: 4px;
+        margin-bottom: 8px;
+    }
+
+    button{
+        width: 100%;
+        border-radius: 5px;
+        border: 0px;
+        font-size: 14px;
+        color: white;
+        height: 32px;
+        background-color: #6868c3;        
+    }
+
+    .header{
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+    }
+}
+.folder-fg-color{
+    color: #fee394;
+}
+
+.default-center{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.create-folder{
+    border: 1px solid #292929;
+    border-radius: 3px;
+    padding: 4px 8px;
+    font-size: 12px;
+    cursor: pointer;    
+}
+.width-90,
+.width-10{
+    display: inline-block;
+    float: left;
+    box-sizing: border-box;
+}
+.width-10{
+    width: 10%;
+}
+.width-90{
+    width: 90%;
+}
+.folder-icon{
+    float: left;
+    font-size: 24px;
+}
+.folder-content{
+    padding-top: 4px;
+    margin-left: 30px;
+    font-size: 14px;
+}
+.light-border-bottom{
+    border-bottom: 1px solid #eee; 
+}
